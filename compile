@@ -6,5 +6,5 @@ then
 	exit 0
 fi
 
-gcc -Wno-unused-result -static -fno-strict-aliasing -DONLINE_JUDGE -lm -s -O2 -o a.out $1
+g++ -Wno-unused-result -static -fno-strict-aliasing -DONLINE_JUDGE -s -O2 -o a.out $1 -lm
 ./a.out < in.txt
