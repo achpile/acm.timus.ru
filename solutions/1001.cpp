@@ -3,7 +3,7 @@
 #include <vector>
 
 int main() {
-	int   i;
+	int    i;
 	double a;
 	std::vector<double> list;
 
