@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]
+then
+	echo "Usage: $0 <source file>"
+	exit 0
+fi
+
+gcc -Wno-unused-result -static -fno-strict-aliasing -DONLINE_JUDGE -lm -s -O2 -o a.out $1
+./a.out < in.txt
