@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]
+then
+	echo "Usage: $0 <number>"
+	exit 0
+fi
+
+git add solutions/$1.cpp && git commit -m $1 && git push
