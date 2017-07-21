@@ -2,8 +2,8 @@
 
 if [ $# -lt 1 ]
 then
-	echo "Usage: $0 <source file>"
+	echo "Usage: $0 <number>"
 	exit 0
 fi
 
-g++ -Wno-unused-result -static -fno-strict-aliasing -DONLINE_JUDGE -s -O2 -o a.out $1 -lm && ./a.out < in.txt
+g++ -Wno-unused-result -static -fno-strict-aliasing -DONLINE_JUDGE -s -O2 -o a.out solutions/$1.cpp -lm && ./a.out < in.txt
