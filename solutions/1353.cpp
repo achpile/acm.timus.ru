@@ -1,0 +1,93 @@
+#include <stdio.h>
+
+int main() {
+	int k;
+	scanf("%d\n", &k);
+
+	switch (k) {
+		case  0: printf("1\n"); break;
+		case  1: printf("10\n"); break;
+		case  2: printf("45\n"); break;
+		case  3: printf("165\n"); break;
+		case  4: printf("495\n"); break;
+		case  5: printf("1287\n"); break;
+		case  6: printf("3003\n"); break;
+		case  7: printf("6435\n"); break;
+		case  8: printf("12870\n"); break;
+		case  9: printf("24310\n"); break;
+		case 10: printf("43749\n"); break;
+		case 11: printf("75501\n"); break;
+		case 12: printf("125565\n"); break;
+		case 13: printf("202005\n"); break;
+		case 14: printf("315315\n"); break;
+		case 15: printf("478731\n"); break;
+		case 16: printf("708444\n"); break;
+		case 17: printf("1023660\n"); break;
+		case 18: printf("1446445\n"); break;
+		case 19: printf("2001285\n"); break;
+		case 20: printf("2714319\n"); break;
+		case 21: printf("3612231\n"); break;
+		case 22: printf("4720815\n"); break;
+		case 23: printf("6063255\n"); break;
+		case 24: printf("7658190\n"); break;
+		case 25: printf("9517662\n"); break;
+		case 26: printf("11645073\n"); break;
+		case 27: printf("14033305\n"); break;
+		case 28: printf("16663185\n"); break;
+		case 29: printf("19502505\n"); break;
+		case 30: printf("22505751\n"); break;
+		case 31: printf("25614639\n"); break;
+		case 32: printf("28759500\n"); break;
+		case 33: printf("31861500\n"); break;
+		case 34: printf("34835625\n"); break;
+		case 35: printf("37594305\n"); break;
+		case 36: printf("40051495\n"); break;
+		case 37: printf("42126975\n"); break;
+		case 38: printf("43750575\n"); break;
+		case 39: printf("44865975\n"); break;
+		case 40: printf("45433800\n"); break;
+		case 41: printf("45433800\n"); break;
+		case 42: printf("44865975\n"); break;
+		case 43: printf("43750575\n"); break;
+		case 44: printf("42126975\n"); break;
+		case 45: printf("40051495\n"); break;
+		case 46: printf("37594305\n"); break;
+		case 47: printf("34835625\n"); break;
+		case 48: printf("31861500\n"); break;
+		case 49: printf("28759500\n"); break;
+		case 50: printf("25614639\n"); break;
+		case 51: printf("22505751\n"); break;
+		case 52: printf("19502505\n"); break;
+		case 53: printf("16663185\n"); break;
+		case 54: printf("14033305\n"); break;
+		case 55: printf("11645073\n"); break;
+		case 56: printf("9517662\n"); break;
+		case 57: printf("7658190\n"); break;
+		case 58: printf("6063255\n"); break;
+		case 59: printf("4720815\n"); break;
+		case 60: printf("3612231\n"); break;
+		case 61: printf("2714319\n"); break;
+		case 62: printf("2001285\n"); break;
+		case 63: printf("1446445\n"); break;
+		case 64: printf("1023660\n"); break;
+		case 65: printf("708444\n"); break;
+		case 66: printf("478731\n"); break;
+		case 67: printf("315315\n"); break;
+		case 68: printf("202005\n"); break;
+		case 69: printf("125565\n"); break;
+		case 70: printf("75501\n"); break;
+		case 71: printf("43749\n"); break;
+		case 72: printf("24310\n"); break;
+		case 73: printf("12870\n"); break;
+		case 74: printf("6435\n"); break;
+		case 75: printf("3003\n"); break;
+		case 76: printf("1287\n"); break;
+		case 77: printf("495\n"); break;
+		case 78: printf("165\n"); break;
+		case 79: printf("45\n"); break;
+		case 80: printf("9\n"); break;
+		case 81: printf("1\n"); break;
+	}
+
+	return 0;
+}
