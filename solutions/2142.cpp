@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-	long a, b, c;
-	long x, y, z;
-	long j, k;
+	long long int a, b, c;
+	long long int x, y, z;
+	long long int j, k;
 
-	scanf("%ld %ld %ld\n", &a, &b, &c);
-	scanf("%ld %ld %ld\n", &x, &y, &z);
+	scanf("%lld %lld %lld\n", &a, &b, &c);
+	scanf("%lld %lld %lld\n", &x, &y, &z);
 
 	j = a - x;
 	k = b - y;
